@@ -14,6 +14,7 @@
 }
 .header h1, h2{
     font-weight: 400;
+    margin-top: 30px;
 }
 .header h2{
     margin-top: 12px;
@@ -28,15 +29,14 @@
 }
 .container{
     display :flex;
-    justify-content: space-around;
-    margin : 50px;
-    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
 }
 .content_field{
     display :flex;
     justify-content: space-around;
-    margin-top : 30px;
-    margin-right: 50px;
 }
 .input-group{
     display: flex;
@@ -48,9 +48,6 @@
    padding: 7px;
    display: flex;
    justify-content: center;
-   align-items: center;
-   flex-shrink: 0;
-   
    border-width: 0.2px;
    border-right: none;
    
@@ -64,7 +61,7 @@ input{
     
 }
 img{
-    width: 400px;
+    width: 500px;
     
 }
 i{
